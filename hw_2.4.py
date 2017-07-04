@@ -16,4 +16,4 @@ for file in files_list:
 				list_with_word.append(file)
 				break
 
-print (len(set(list_with_word)))
+print (set(list_with_word))
