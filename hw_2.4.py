@@ -14,6 +14,5 @@ for file in files_list:
 		for line in f:
 			if word in line:
 				list_with_word.append(file)
-				break
-
+				
 print (set(list_with_word))
