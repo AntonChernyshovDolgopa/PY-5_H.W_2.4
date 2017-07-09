@@ -13,7 +13,6 @@ def find_sql_files():
 #поиск файлов в которые входят указанные слова
 def find_in_files():
 	files_list = find_sql_files()
-	print (type(files_list))
 	key_word = None
 	while key_word != 'exit':
 		new_list = []
